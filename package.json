@@ -1,0 +1,29 @@
+{
+  "name": "contract-ingest",
+  "version": "0.0.1",
+  "description": "ingest contracts for tracks",
+  "author": "Howard Meadows",
+  "dependencies": {
+    "@types/yargs": "^17.0.10",
+    "mongoose": "^8.4.1",
+    "typescript": "^5.4.5",
+    "yargs": "^17.5.1"
+  },
+  "scripts-comments": {},
+  "scripts": {
+    "tests": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"es6\"}' node_modules/.bin/ts-mocha tests/*.spec.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.11",
+    "@types/sinon": "^17.0.3",
+    "chai": "^5.1.1",
+    "esm": "^3.2.25",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.8.2"
+  }
+}
