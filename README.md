@@ -1,7 +1,7 @@
 To run this program:
 
 1. `npm install` to install dependencies.
-2. `node_modules/.bin/ts-node ingest.ts
+2. `node_modules/.bin/ts-node ingest.ts`
 
 It takes the input from the tracks.csv contained in the repo
 
